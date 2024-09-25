@@ -1,0 +1,659 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    background: linear-gradient(to bottom left,#4277B0,#27A294);
+    
+}
+.container2{
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+.img_icon{
+    width: 70px;
+}
+.card_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EBA55C;
+    color: #fff;
+    box-shadow: 8px 10px 4px 0px #0177a9;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+.card_icon_conter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 20px;
+}
+.container3 {
+    background: linear-gradient(to bottom left,#4277B0,#27A294);
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.logo1 {
+   float: left;
+   padding-left: 80px;
+   padding-top: 10px;
+   
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.text_right_footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: flex-end;
+    padding-bottom: 10px;
+}
+.text_logo_footer{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.text_logo_h{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+.logo2{
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+}
+.text1{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.text2{
+    padding-bottom: 15px;
+}
+.text2_footer{
+    padding-bottom: 15px;
+    font-family: 'Montserrat', 'Alternates';
+}
+.text3{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: right;
+}
+.text_submit{
+    text-align: left;
+    display: flex;
+}
+.text5{
+    color: #2d2626a2;
+}
+.container5{
+    background: linear-gradient(180deg, #29A396, #357E98,#3A5480);
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.text5_1 {
+    font-family: 'Montserrat';
+    font-size: 36px;
+    color: #fff;
+    text-align: left;
+    font-weight: bolder;
+    width: auto;
+    
+}
+.text5_2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-align: left;
+    width: 350px;
+    margin-bottom: 25px;
+}
+.button_узнать{
+    font-size: medium;
+    color: #fff;
+    padding: 24px;
+    border-radius: 60px;
+    border: none;
+    box-shadow: 3px 5px 0px 0px #635075;
+    background-color: #EBA55C;
+    font-weight: 700;
+    width: 250px;
+}
+.container5_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    margin-top: 120px;
+    padding-right: 25px;
+    margin-bottom: 80px;
+    font-weight: bolder;
+}
+.img_sert{
+    width: 450px;
+    margin-bottom: 160px;
+    transform: rotate(354deg);
+}
+
+.text_4{
+    padding-left: 36px;
+    padding-bottom: 12px;
+    
+}
+.text_4_second{
+    
+    padding-left: 36px;
+    padding-top: 25px;
+    
+}
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+.card_item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+   
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EBA55C;
+    color: #fff;
+    box-shadow: 8px 10px 4px 0px #0177a9;
+    border-radius: 20px;
+    
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    
+    
+}
+.card_img{
+    width: 200px;   
+}
+.submit{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 36px;
+}
+.button_sub{
+font-size: medium;
+    color: #fff;
+    padding: 24px;
+    border-radius: 60px;
+    border: none;
+    box-shadow: 3px 5px 0px 0px #635075;
+    background-color: #EBA55C;
+    font-weight: 700;
+    width: 350px;
+}
+.text_3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #fff;
+    
+}
+.img_3_cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    padding-bottom: 80px;
+    
+}
+
+.img_3_2{
+    width: 320px;
+   
+}
+.img_3_1{
+    width: 700px;
+    
+}
+.map{
+    display: flex;
+}
+.text_1_right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.text1_2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-align: left;
+    width: 510px;
+    padding-bottom: 36px;
+}
+.art_int_1{
+    text-align: left;
+}
+.img_second{
+    width: 550px;
+    padding-top: 40px;
+}
+.text_img_second{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.top-nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 45px;
+}
+nav{
+    padding-right: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav a{
+    color: #fff;
+    padding-right: 36px;
+    font-weight: 200;
+    font-size: 20px;
+    font-family: 'Montserrat', 'Alternates';
+    line-break: normal;
+}
+header button{
+    font-size: medium;
+    color: #fff;
+    padding: 6px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 3px 5px 0px 0px #635075;
+    background-color: #EBA55C;
+    font-weight: 200;
+    width: 180px;
+}
+.img_bottom_1{
+    width: 200px;
+    position: absolute;
+    left: 0%; /* Центрирование картинки относительно экрана */
+    transform: translateX(-50%);
+    transform: translatey(-200px); /* Для точного центрирования */
+    z-index: 10; /* Увеличивает слой картинки над другими элементами */
+    
+}
+.img_bottom_2{
+    width: 200px;
+    position: absolute;
+    right: 0%; /* Центрирование картинки относительно экрана */
+    transform: translateX(+50%);
+    transform: translatey(0px); /* Для точного центрирования */
+    z-index: 10; /* Увеличивает слой картинки над другими элементами */
+    
+}
+.text2_1 h1{
+    font-size: 32px;
+}
+h1{
+    font-size: 32px;
+}
+
+/* Стили для кнопки */
+#openPopupBtn {
+    font-size: medium;
+    color: #fff;
+    padding: 24px;
+    border-radius: 60px;
+    border: none;
+    box-shadow: 3px 5px 0px 0px #635075;
+    background-color: #EBA55C;
+    font-weight: 700;
+    width: 250px;
+    text-align: center;
+}
+
+#openPopupBtn:hover {
+    background-color: #2980b9;
+}
+
+/* Стили для попапа */
+.popup {
+    display: none; /* Изначально попап скрыт */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1001;
+}
+
+/* Кнопка закрытия попапа */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+form input, form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 90%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: matrix(5px);
+}
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+    .img_sert {
+        width: 360px;
+        margin-bottom: 164px;
+        transform: rotate(354deg);
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 860px) {
+    .img_sert {
+        padding-top: 36px;
+        width: 360px;
+        margin-bottom: 10px;
+        transform: rotate(354deg);
+    }
+}
+
+
+/* Стили для планшетов (ширина от 768px до 1024px) */
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .container, .container3 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .container5{
+    padding-left: 10px;
+        padding-right: 10px;
+
+    display: flex;
+    flex-direction: row;
+    
+    align-items: flex-end;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+    .container5_text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        margin-top: 50px;
+        padding-right: 14px;
+        margin-bottom: 80px;
+        font-weight: bolder;
+    }
+    
+
+    .logo1 img {
+        width: 80px;
+    }
+
+    .img_second {
+        width: 400px;
+    }
+
+    .text1_2 {
+        width: 400px;
+    }
+
+    nav a {
+        font-size: 18px;
+        padding-right: 20px;
+    }
+
+    .card_icon {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .img_3_1 {
+        width: 60%;
+    }
+
+    .img_3_2 {
+        width: 250px;
+    }
+
+    .card {
+        width: 180px;
+        padding: 20px;
+    }
+}
+
+/* Стили для мобильных устройств (ширина до 768px) */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .text_1_right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        padding-right: 0px;
+    padding-bottom: 40px;
+    padding-top: 70px;
+    
+    }
+    .art_int_1 {
+        text-align: center;
+    }
+    
+
+    .container, .container2, .container3, .container5 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .logo1 img {
+        width: 60px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav a {
+        font-size: 16px;
+        padding-right: 10px;
+    }
+
+    .text_img_second {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img_second {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .text1_2 {
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .card_item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .img_3_2 {
+        width: 30%;
+        
+    
+    }
+    .img_3_1 {
+        width: 60%;
+        
+    }
+
+    .container5 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img_sert {
+        padding-top: 36px;
+        width: 300px;
+        margin-bottom: 5px;
+    }
+    .container5_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        padding-right: 25px;
+        margin-bottom: 80px;
+        font-weight: bolder;
+    }
+    .text5_2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        color: #fff;
+        text-align: center;
+        width: 350px;
+        margin-bottom: 25px;
+    }
+
+    .button_узнать, .button_sub {
+        width: 200px;
+    }
+}
+
+/* Стили для небольших экранов (до 480px, мобильные устройства) */
+@media only screen and (max-width: 480px) {
+    .container, .container2, .container3, .container5 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .logo1 img {
+        width: 50px;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding-right: 5px;
+    }
+
+    .text1_2 {
+        font-size: 14px;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .card {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .img_sert {
+        width: 200px;
+    }
+
+    .text5_1 {
+        font-size: 24px;
+    }
+
+    .text5_2 {
+        font-size: 16px;
+    }
+}
